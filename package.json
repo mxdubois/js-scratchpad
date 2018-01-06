@@ -21,5 +21,12 @@
   },
   "dependencies": {
     "ramda": "^0.25.0"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "semi": false,
+    "parser": "babylon"
   }
 }
