@@ -1,0 +1,25 @@
+{
+  "name": "js-scratchpad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "inspect": "node --inspect-brk node_modules/.bin/jest --runInBand",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.0.4",
+    "babel-preset-latest": "^6.24.1",
+    "eslint": "^4.14.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "jest": "^22.0.4",
+    "prettier": "^1.9.2"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
